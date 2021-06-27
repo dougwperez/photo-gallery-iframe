@@ -28,7 +28,8 @@ html {
   column-count: 5;
   column-gap: 2.5px;
   margin: 8%;
-  padding-right: 4px;
+  padding-right: 4.5px;
+  padding-top: 1.5px;
   border: 2px solid white;
   box-shadow: 0 0 5px #333;
   transform: translateY(-1.4%);
@@ -39,6 +40,7 @@ html {
   width: 100% !important;
   height: auto !important;
   padding: 2.5px;
+  background-color: white;
 }
 
 #photos img:hover {
@@ -95,3 +97,20 @@ html {
     column-count: 1;
   }
 }
+
+/* Header */
+/* h1 {
+  float: center;
+} */
+
+#inner {
+  transform: translateY(-20px);
+  margin-bottom: 25px;
+}
+
+#outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* Loading Screen */
